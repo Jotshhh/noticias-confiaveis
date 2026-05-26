@@ -58,6 +58,16 @@
             margin-bottom: 25px;
             font-style: italic;
         }
+        
+        /* REGRA PARA A IMAGEM RESPONSIVA */
+        .news-image {
+            max-width: 100%; /* Garante que ela não passe da largura do container */
+            height: auto;    /* Mantém a proporção original da foto sem distorcer */
+            display: block;  /* Remove espaços indesejados abaixo da imagem */
+            margin: 0 auto 25px auto; /* Centraliza e adiciona margem na parte inferior */
+            border-radius: 4px; /* Opcional: deixa os cantos suavemente arredondados */
+        }
+
         .content-placeholder {
             margin-bottom: 30px;
             color: #555;
@@ -103,10 +113,12 @@
             <div class="sub-headline">
                 Aluno Marcus Gabriel seria o motivo da implementação da lei, tendo em vista que ele fez uma ponte de dois meses sem ir às aulas.
             </div>
-
+            
+            <img src="assets/img/gabriel-noticia.png" alt="Notícia Marcus Gabriel" class="news-image">
+            
             <div class="content-placeholder">
                 <p>A nova medida estadual visa combater com maior rigor a evasão escolar crônica, estabelecendo protocolos estritos para o monitoramento e o retorno obrigatório de estudantes com histórico prolongado de ausências sem justificativa legal.</p>
-                <p>O caso do estudante citado impulsionou a urgência na regulamentação de diretrizes severas para a busca ativa de jovens em idade escolar.</p>
+                <p>O caso do estudante assunto impulsionou a urgência na regulamentação de diretrizes severas para a busca ativa de jovens em idade escolar.</p>
             </div>
 
             <div style="text-align: center; margin-top: 20px;">
@@ -120,4 +132,4 @@
     </div>
 
 </body>
-</html>
+</html>>
