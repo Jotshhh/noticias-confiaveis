@@ -1,135 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal de Notícias Local - MS</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f4f6f9;
-            color: #333;
-            line-height: 1.6;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-        header {
-            text-align: center;
-            border-bottom: 2px solid #eaeaea;
-            padding-bottom: 20px;
-            margin-bottom: 25px;
-        }
-        header h1 {
-            color: #bd1a1a;
-            font-size: 24px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        .meta-info {
-            font-size: 14px;
-            color: #777;
-            margin-top: 5px;
-        }
-        .main-headline {
-            font-size: 22px;
-            font-weight: bold;
-            color: #111;
-            margin-bottom: 15px;
-            line-height: 1.3;
-        }
-        .sub-headline {
-            font-size: 16px;
-            color: #444;
-            background-color: #f9f9f9;
-            padding: 15px;
-            border-left: 4px solid #bd1a1a;
-            margin-bottom: 25px;
-            font-style: italic;
-        }
-        
-        /* REGRA PARA A IMAGEM RESPONSIVA */
-        .news-image {
-            max-width: 100%; /* Garante que ela não passe da largura do container */
-            height: auto;    /* Mantém a proporção original da foto sem distorcer */
-            display: block;  /* Remove espaços indesejados abaixo da imagem */
-            margin: 0 auto 25px auto; /* Centraliza e adiciona margem na parte inferior */
-            border-radius: 4px; /* Opcional: deixa os cantos suavemente arredondados */
-        }
+    <title>Notícias Confiáveis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
 
-        .content-placeholder {
-            margin-bottom: 30px;
-            color: #555;
-        }
-        .content-placeholder p {
-            margin-bottom: 15px;
-        }
-        .btn-link {
-            display: inline-block;
-            background-color: #bd1a1a;
-            color: #fff;
-            text-decoration: none;
-            padding: 12px 24px;
-            border-radius: 4px;
-            font-weight: bold;
-            transition: background-color 0.2s;
-            text-align: center;
-        }
-        .btn-link:hover {
-            background-color: #961313;
-        }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 12px;
-            color: #999;
-            border-top: 1px solid #eaeaea;
-            padding-top: 20px;
-        }
-    </style>
 </head>
-<body>
 
-    <div class="container">
-        <header>
-            <h1>O Correio News</h1>
-            <div class="meta-info">Publicado em: 26 de Maio de 2026 | Mato Grosso do Sul</div>
-        </header>
 
-        <main>
-            <h2 class="main-headline">MS regulamenta busca ativa de alunos "na marra" por faltas.</h2>
-            
-            <div class="sub-headline">
-                Aluno Marcus Gabriel seria o motivo da implementação da lei, tendo em vista que ele fez uma ponte de dois meses sem ir às aulas.
+<body style="padding: 0;">
+
+        <nav class="navbar">
+            <div><h1></h1><a href="#"><img src="/icons/logo.png" alt="" class="logo"></a></h1></div>
+
+            <div class="nav-links">
+                <a href="#">Principais Notícias</a>
+                <a href="#">Gabriel</a>
+                <a href="#">Matheus</a>
+                <a href="#">Filipe</a>
+
             </div>
-            
-            <img src="assets/img/gabriel-noticia.png" alt="Notícia Marcus Gabriel" class="news-image">
-            
-            <div class="content-placeholder">
-                <p>A nova medida estadual visa combater com maior rigor a evasão escolar crônica, estabelecendo protocolos estritos para o monitoramento e o retorno obrigatório de estudantes com histórico prolongado de ausências sem justificativa legal.</p>
-                <p>O caso do estudante assunto impulsionou a urgência na regulamentação de diretrizes severas para a busca ativa de jovens em idade escolar.</p>
+            <div class="nav-utilities">
+                <a href="#">📧 Email</a>
+                <a href="#">👤 Entre</a>
+                <a href="#" class="btn-assine"><span class="icon icon-crown"></span> Assine o PLUS 👑</a>
             </div>
+        </nav>
 
-            <div style="text-align: center; margin-top: 20px;">
-                <a href="https://www.ocorreionews.com.br" target="_blank" class="btn-link">Acessar Notícia Completa</a>
-            </div>
-        </main>
+    <main class="main-content">
+        <section class="news-feed">
+            
+            <article class="news-card">
+                <div class="news-card-image">
+                    <img src="assets\img\MOHAMEDPITUCHO.png" alt="Minério de Ferro">
+                </div>
+                <div class="news-card-content">
+                    <span class="news-kicker">Reforço do Real</span>
+                    <a href="/pages/categorias/esportes/noticia-jack-1.html"><h2 class="news-headline">Fim do mistério! Revelado o reforço milionário prometido por Florentino Pérez no Real Madrid</h2></a>
+                    <ul class="news-bullets">
+                        <li>Mandatário merengue abre os cofres e sela a transferência histórica de Mohammed Pitucho Peludinho Salah Hussein por cifras astronômicas após longa novela com o Egito.</li>
+                    </ul>
+                    <div class="news-meta">15 de Junho de 2026 — Em Esportes</div>
+                </div>
+            </article>
 
-        <footer>
-            &copy; 2026 O Correio News - Todos os direitos reservados.
-        </footer>
-    </div>
+            <article class="news-card">
+                <div class="news-card-image">
+                    <img src="assets\img\gabriel-noticia.png" alt="Netanyahu">
+                </div>
+                <div class="news-card-content">
+                    <span class="news-kicker">Busca Ativa na Escola</span>
+                    <a href="/pages/categorias/educacao/noticia-gabriel-1.html"><h2 class="news-headline">Nossa luta não acabou, diz Netanyahu após acordo de paz entre EUA e Irã</h2></a>
+                    <ul class="news-bullets">
+                        <li>Explosões ouvidas em Ormuz, diz Irã</li>
+                        <li>Acordo de paz com Irã é 'bem geral', diz Vance</li>
+                        <li>A guerra acabou? O que se sabe sobre o acordo entre EUA e Irã</li>
+                    </ul>
+                    <div class="news-meta">26 de Maio de 2026 — Em Educação</div>
+                </div>
+            </article>
+
+        </section>
+    </main>
 
 </body>
-</html>>
+
+</html>
