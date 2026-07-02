@@ -11,12 +11,40 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="top-bar">
-            <span>Notícias Confiáveis</span>
-            <span style="color: #3b82f6;">EXCLUSIVO</span>
-
+    <nav class="navbar">
+        <div class="brand">
+            <h1><a href="../../../index.html"><img src="../../../icons/logo.png" alt="logo" class="logo"></a></h1>
         </div>
+
+        <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-menu">
+            <div class="nav-links">
+                <a href="../../../index.html">Principais Notícias</a>
+                <a href="../../../index.html">Gabriel</a>
+                <a href="../../../index.html">Matheus</a>
+                <a href="../../../index.html">Filipe</a>
+            </div>
+            <div class="nav-utilities">
+                <a href="#">📧 Email</a>
+                <a href="#">👤 Entre</a>
+                <a href="#" class="btn-assine"><span class="icon icon-crown"></span> Assine o PLUS 👑</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <a href="../../../index.html" class="btn-voltar">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            Voltar para a Home
+        </a>
         <div class="main-content">
             <span class="badge">Urgente</span>
             <div class="meta-info">Publicado em: 15 de Junho de 2026 | Mato Grosso do Sul</div>
@@ -56,6 +84,7 @@
             &copy; 2026 Notícias Confiáveis - Todos os direitos reservados.
         </footer>
     </div>
+    <script src="../../../js/script.js"></script>
 </body>
 
 </html>
